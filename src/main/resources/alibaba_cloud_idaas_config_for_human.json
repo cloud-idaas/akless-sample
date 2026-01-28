@@ -1,0 +1,19 @@
+{
+    "idaasInstanceId": "",
+    "clientId": "",
+    "issuer":"",
+    "tokenEndpoint": "",
+    "deviceAuthorizationEndpoint": "",
+    "scope": "urn:cloud:idaas:pam|cloud_account_role:obtain_access_credential",
+    "developerApiEndpoint":"eiam-developerapi.cn-hangzhou.aliyuncs.com",
+    "authnConfiguration": {
+        "identityType": "HUMAN",
+        "authnMethod": "OIDC",
+        "clientDeployEnvironment": "COMPUTER",
+        "applicationFederatedCredentialName": ""
+    },
+    "httpConfiguration": {
+        "connectTimeout": 5000,
+        "readTimeout": 10000
+    }
+}

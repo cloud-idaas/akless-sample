@@ -1,0 +1,18 @@
+{
+    "idaasInstanceId": "",
+    "clientId": "",
+    "issuer":"",
+    "tokenEndpoint": "",
+    "scope": "urn:cloud:idaas:pam|cloud_account_role:obtain_access_credential",
+    "developerApiEndpoint":"eiam-developerapi.cn-hangzhou.aliyuncs.com",
+    "authnConfiguration": {
+        "authenticationSubject": "CLIENT",
+        "authnMethod": "PKCS7",
+        "applicationFederatedCredentialName": "",
+        "clientDeployEnvironment": "ALIBABA_CLOUD_ECS"
+    },
+    "httpConfiguration": {
+        "connectTimeout": 5000,
+        "readTimeout": 10000
+    }
+}
